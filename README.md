@@ -11,7 +11,7 @@ We used the Gurobi solver (academic version 8.1.1) for the Mixed Integer Quadrat
 We conducted numerical simulations using the real data from the National Vulnerability Database (NVD), which are stored input.txt. For more details, please visit: https://nvd.nist.gov/
 
 ### Reproduce experiments:
-python MTD_VI.py
+python ./VI_MTD/MTD_VI.py
 
 ## Citation
 If you find our work useful in your research, please consider citing:
