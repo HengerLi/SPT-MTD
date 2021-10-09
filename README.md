@@ -3,6 +3,15 @@ Moving target defense has emerged as a critical paradigm of protecting a vulnera
 
 Code is for our AAMASS 2020 paper: https://www.ifaamas.org/Proceedings/aamas2020/pdfs/p717.pdf
 
+## Installation
+We used the Gurobi solver (academic version 8.1.1) for the Mixed Integer Quadratic Program (MIQP) problems, for Downloads & Licenses, please visit: https://www.gurobi.com/downloads/
+
+## Usage
+### Dataset:
+We conducted numerical simulations using the real data from the National Vulnerability Database (NVD), which are stored input.txt. For more details, please visit: https://nvd.nist.gov/
+
+### Reproduce experiments:
+python MTD_VI.py
 
 ## Citation
 If you find our work useful in your research, please consider citing:
